@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "codepilot-ai-15b91",
+          "appId": "1:1038678975616:android:869a1ab6e9cd3840aa7265",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "codepilot-ai-15b91",
+          "configurations": {
+            "android": "1:1038678975616:android:869a1ab6e9cd3840aa7265",
+            "ios": "1:1038678975616:ios:97a4d588aafaaf9baa7265",
+            "macos": "1:1038678975616:ios:97a4d588aafaaf9baa7265",
+            "web": "1:1038678975616:web:d03a1790dd30c74faa7265",
+            "windows": "1:1038678975616:web:5dcec6fff6230cb0aa7265"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
